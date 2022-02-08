@@ -8,10 +8,7 @@
  * @subpackage Twenty_Twenty_One
  * @since Twenty Twenty-One 1.0
  */
-function bebe(){
-	echo "heloo";
-}
-add_action( 'init', 'bebe' );
+
 
 // This theme requires WordPress 5.3 or later.
 if ( version_compare( $GLOBALS['wp_version'], '5.3', '<' ) ) {
@@ -642,3 +639,8 @@ function twentytwentyone_add_ie_class() {
 	<?php
 }
 add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
+
+function bebe(){
+	echo "heloo";
+}
+add_action( 'init', 'bebe' );
