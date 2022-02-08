@@ -11,7 +11,7 @@
 function bebe(){
 	echo "heloo";
 }
-add_action( 'wp_init', 'bebe' );
+add_action( 'init', 'bebe' );
 
 // This theme requires WordPress 5.3 or later.
 if ( version_compare( $GLOBALS['wp_version'], '5.3', '<' ) ) {
