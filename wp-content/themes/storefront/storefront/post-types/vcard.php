@@ -1,5 +1,4 @@
 <?php
-
 function my_custom_post_vcard()
 {
     $labels = array(
