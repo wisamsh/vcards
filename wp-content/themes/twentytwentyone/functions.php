@@ -642,7 +642,7 @@ add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
 
 
 function bebe(){
-	echo "helooddd";
+	echo "Behold";
 }
 
 add_action( 'init', 'bebe' );
